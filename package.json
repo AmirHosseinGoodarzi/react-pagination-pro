@@ -1,6 +1,6 @@
 {
   "name": "react-pagination-pro",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react-pagination-pro is a simple configurable pagination component built with React js.",
   "main": "Pagination.js",
   "scripts": {
