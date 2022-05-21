@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     console.log(`take ${data.take},from page:${data.page}`);
   }, [data]);
-  const totalItmes = 100;
+  const totalItmes = 200;
   return (
     <div className="App">
       <Pagination
@@ -19,8 +19,14 @@ export default function App() {
         setState={setData}
         // optional props
         loading={false}
-        activedColor={"yellow"}
-        buttonsText={{prev:"قبلی",next:"بعدی"}}
+        activeClassName={"activeClassName"}
+        pageItemsClassName={"pageItemsClassName"}
+        buttonsClassName={"buttonsClassName"}
+        buttonsText={{ prev: "قبلی", next: "بعدی" }}
+        takeChangerCounts={[10,50,100]}
+        showTakeChanger={true}
+        takeChangerClassName={"takeChangerClassName"}
+        takeChangerText={"Rows :"}
       />
     </div>
   );
