@@ -91,7 +91,7 @@ export default function Example() {
     </tr>
     <tr>
         <td>buttonsText</td>
-        <td style="text-align:center">Object<br/>//ex: {{ prev: "<<", next: ">>" }} or you can use Icons</td>
+        <td style="text-align:center">Object<br/>//ex: {{ prev: "<=", next: "=>" }} or you can use Icons</td>
         <td style="text-align:center">null</td>
         <td>false</td>
     </tr>
