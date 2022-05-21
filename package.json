@@ -25,5 +25,8 @@
   "homepage": "https://github.com/AmirHosseinGoodarzi/react-pagination-pro#readme",
   "peerDependencies": {
     "react": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.17.12"
   }
 }
