@@ -1,6 +1,6 @@
 {
   "name": "react-pagination-pro",
-  "version": "1.0.6",
+  "version": "1.0.15",
   "description": "react-pagination-pro is a simple configurable pagination component built with React js.",
   "main": "Pagination.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "reactjs-pagination"
   ],
   "author": "Amihossein Goodarzi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AmirHosseinGoodarzi/react-pagination-pro/issues"
   },
@@ -27,10 +27,22 @@
     "react-dom": ">=16"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.16.7",
-    "@babel/preset-env": "^7.18.0"
+    "@babel/core": "^7.18.0",
+    "@babel/cli": "^7.17.10",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "babel-preset-env": "^1.7.0"
   },
   "contributors": [
     "AmirHosseinGoodarzi (https://github.com/AmirHosseinGoodarzi)"
-  ]
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-jsx"
+    ]
+  }
 }

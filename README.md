@@ -31,6 +31,10 @@ export default function Example() {
   });
   const totalItmes = 200; // get it from server-side
 
+  useEffect(() => {
+    console.log(`take ${data.take},from page:${data.page}`);
+  }, [data]);
+  
   return <Pagination totalItmes={totalItmes} state={data} setState={setData} />;
 }
 ```
