@@ -1,14 +1,14 @@
 {
-  "name": "reactjs-pagination",
+  "name": "react-pagination-pro",
   "version": "1.0.0",
-  "description": "reactjs-pagination is a simple configurable pagination component built with React js.",
+  "description": "react-pagination-pro is a simple configurable pagination component built with React js.",
   "main": "Pagination.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmirHosseinGoodarzi/reactjs-pagination.git"
+    "url": "git+https://github.com/AmirHosseinGoodarzi/react-pagination-pro.git"
   },
   "keywords": [
     "pagination",
@@ -20,9 +20,9 @@
   "author": "Amihossein Goodarzi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmirHosseinGoodarzi/reactjs-pagination/issues"
+    "url": "https://github.com/AmirHosseinGoodarzi/react-pagination-pro/issues"
   },
-  "homepage": "https://github.com/AmirHosseinGoodarzi/reactjs-pagination#readme",
+  "homepage": "https://github.com/AmirHosseinGoodarzi/react-pagination-pro#readme",
   "peerDependencies": {
     "react": "^18.1.0"
   }

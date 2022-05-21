@@ -1,28 +1,28 @@
-# Reactjs-Pagination
+# react-pagination-pro
 
 simple configurable pagination component built with `React js`.
 
 <div align="center">
-  <img src="./screenshot.png" alt="reactjs-pagination"/>
+  <img src="./screenshot.png" alt="react-pagination-pro"/>
 </div>
 
 ## Installation
 
 ```code
-npm install --save reactjs-pagination
+npm install --save react-pagination-pro
 ```
 
 or
 
 ```code
-yarn add reactjs-pagination
+yarn add react-pagination-pro
 ```
 
 ## Usage
 
 ```javascript
 import React, { useEffect, useState } from "react";
-import Pagination from "reactjs-pagination";
+import Pagination from "react-pagination-pro";
 
 export default function Example() {
   const [data, setData] = useState({
