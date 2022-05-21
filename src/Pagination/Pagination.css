@@ -6,6 +6,17 @@
     padding: 0 3rem;
 }
 
+@media screen and (max-width:768px) {
+    .Pagination_wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Pagination_wrapper nav {
+       margin: 20px 0;
+    }
+    
+}
+
 #inValidPropsError {
     color: red;
     font-weight: 700;
@@ -27,6 +38,7 @@
     position: relative;
     display: inline-flex;
     list-style: none;
+    padding: 0;
 }
 
 .Pagination_wrapper .prev_btn,
