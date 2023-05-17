@@ -4,6 +4,9 @@
   "compilerOptions": {
     "module": "esnext",
     "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "importHelpers": true,
     // output .d.ts declaration files for consumers
     "declaration": true,
